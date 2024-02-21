@@ -48,10 +48,11 @@ export const SignUp = () => {
                         </header>
 
                         <div className="field-set mt-5">
-                            <div className="input-group mb-3"></div>
+                            <div className="input-group mb-3">
                                 <span className="input-group-text" style={{ background: "white", borderRight: "none" }}>
                                     <i className="fa fa-user-circle"></i>
                                 </span>
+                                
                                 <input
                                     style={{ background: "white", borderLeft: "none", borderRight: "none" }}
                                     type="email"
@@ -74,7 +75,7 @@ export const SignUp = () => {
                                 </span>
                                 <input
                                     type={pwShown ? "text" : "password"}
-                                    id="form2Example22"
+                                    
                                     style={{ background: "white", borderLeft: "none", borderRight: "none" }}
                                     className="form-control mx-auto"
                                     placeholder="Password"
@@ -97,6 +98,8 @@ export const SignUp = () => {
                                 </span>
                             </div>
 
+                            
+
                             <div className="text-center pt-1 mb-3 pb-1 d-flex flex-column">
                                 <button
                                     className="btn mb-1 btn-primary"
@@ -114,7 +117,7 @@ export const SignUp = () => {
                                 </Link>
                             </span>
                         </div>
-                    
+                    </div>
                 </form>
             </div>
         </div>

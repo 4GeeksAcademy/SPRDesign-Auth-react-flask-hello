@@ -5,3 +5,13 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?w=740&t=st=1708473196~exp=1708473796~hmac=74b0d9c6d1fc6d49cc34a0de769b267743d11c5b1454b9ccfc59b96987670b3e");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Para eliminar márgenes predeterminados del body */
+    height: 100vh; /* Para hacer que el body ocupe toda la altura de la ventana */
+}

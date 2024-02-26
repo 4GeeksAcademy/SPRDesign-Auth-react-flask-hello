@@ -19,14 +19,14 @@ export const SignUp = () => {
             if (success) {
                 navigate("/login"); // Redirecciona a la página de inicio de sesión si el registro tiene éxito
             } else {
-                console.log("Sign up failed. Please try again."); // Si falla el registro, mostrar mensaje de error
+                alert("Sign up failed. Please try again."); // Si falla el registro, mostrar mensaje de error
                 setUser({
                     ...user,
                     password: "", // Limpiar el campo del password
                 });
             }
         } catch (error) {
-            console.error("Error during Sign Up:", error);
+            alert("Error during Sign Up:", error);
         }
     };
 

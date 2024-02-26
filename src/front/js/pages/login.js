@@ -23,14 +23,14 @@ export const Login = () => {
       if (success) {
         navigate("/private");
       } else {
-        console.log("Wrong password or username.");
+        alert("Wrong password or username.");
         setCredentials({
           ...credentials,
           password: "",
         });
       }
     } catch (error) {
-      console.error("Error during login:", error);
+      alert("Error during login:", error);
     }
   };
 

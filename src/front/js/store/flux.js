@@ -107,8 +107,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 					},
 					body: JSON.stringify(user) 
 				})
-				data = await respUser.json();
-				console.log(respUser);
+				/*data = await respUser.json();
+				console.log(respUser);*/
 				if (respUser.status != 200) return false;
 				return true;
 			},
